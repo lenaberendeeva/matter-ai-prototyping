@@ -26,10 +26,13 @@ const HeroSection = () => (
 
       {/* CTAs */}
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-        <button className="group flex items-center gap-2 rounded-lg bg-primary px-8 py-3.5 text-base font-semibold text-primary-foreground transition-all hover:opacity-90">
+        <a
+          href="#waitlist"
+          className="group flex items-center gap-2 rounded-lg bg-primary px-8 py-3.5 text-base font-semibold text-primary-foreground transition-all hover:opacity-90"
+        >
           Join Waitlist
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-        </button>
+        </a>
         <button className="flex items-center gap-2 rounded-lg border border-border bg-secondary px-8 py-3.5 text-base font-medium text-secondary-foreground transition-all hover:bg-muted">
           <Play className="h-4 w-4" />
           Watch Demo

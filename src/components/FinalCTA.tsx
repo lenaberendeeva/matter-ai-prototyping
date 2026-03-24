@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 
 const FinalCTA = () => (
-  <section className="relative py-24 md:py-32">
+  <section id="waitlist" className="relative py-24 md:py-32 scroll-mt-24">
     <div className="container">
       <div className="relative rounded-2xl border border-border bg-card overflow-hidden max-w-3xl mx-auto">
         {/* Glow */}
@@ -15,10 +15,13 @@ const FinalCTA = () => (
           <p className="text-muted-foreground mb-8 max-w-lg mx-auto">
             Be among the first to experience AI-powered prototyping
           </p>
-          <button className="group inline-flex items-center gap-2 rounded-lg bg-primary px-8 py-3.5 text-base font-semibold text-primary-foreground transition-all hover:opacity-90">
+          <a
+            href="#waitlist"
+            className="group inline-flex items-center gap-2 rounded-lg bg-primary px-8 py-3.5 text-base font-semibold text-primary-foreground transition-all hover:opacity-90"
+          >
             Join Waitlist
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-          </button>
+          </a>
         </div>
       </div>
     </div>
