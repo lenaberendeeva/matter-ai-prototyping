@@ -16,6 +16,7 @@ const HeroSection = () => (
       {/* Headline */}
       <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-[1.05] mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
         <span className="text-gradient-primary">Matter</span>
+        <span className="text-foreground"> by JetBrains</span>
       </h1>
 
       {/* Subheadline */}
