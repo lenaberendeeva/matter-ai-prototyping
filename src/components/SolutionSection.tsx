@@ -27,10 +27,13 @@ const SolutionSection = () => (
         <p className="text-muted-foreground mb-8">
           Go from concept to clickable, data-driven prototype without writing a single line of code.
         </p>
-        <button className="group flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-all hover:opacity-90">
+        <a
+          href="#waitlist"
+          className="group flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-all hover:opacity-90"
+        >
           Join Waitlist
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-        </button>
+        </a>
       </div>
     </div>
   </section>
