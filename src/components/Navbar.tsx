@@ -8,7 +8,6 @@ const Navbar = () => (
           <span className="text-primary-foreground font-bold text-sm font-mono">M</span>
         </div>
         <span className="text-lg font-semibold text-foreground">Matter</span>
-        <span className="text-xs text-muted-foreground ml-1 hidden sm:inline">by JetBrains</span>
       </div>
       <button className="rounded-lg bg-primary px-5 py-2 text-sm font-medium text-primary-foreground transition-all hover:opacity-90">
         Join Waitlist

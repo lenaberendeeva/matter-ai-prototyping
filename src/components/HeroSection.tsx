@@ -7,12 +7,6 @@ const HeroSection = () => (
     <div className="absolute inset-0 bg-grid opacity-30" />
     
     <div className="container relative z-10 text-center py-24 md:py-32">
-      {/* Badge */}
-      <div className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary px-4 py-1.5 text-xs text-muted-foreground mb-8 animate-fade-up">
-        <span className="h-1.5 w-1.5 rounded-full bg-primary animate-glow-pulse" />
-        AI-powered prototyping tool for product teams
-      </div>
-
       {/* Headline */}
       <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-[1.05] mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
         <span className="text-gradient-primary">Matter</span>
